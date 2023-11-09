@@ -4,11 +4,16 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+/* img {
+    max-width: 300px;
+    height: auto;
+} */
+
 body {
     min-height: 100vh;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
     color: white;
     padding: 30px 100px;
@@ -23,7 +28,7 @@ header {
 }
 
 .header-logo {
-    max-width: 150px;
+    max-width: 100px;
     max-height: auto;
     border-radius: 50%;
 }
@@ -79,5 +84,80 @@ button {
     height: auto;
 }
 
+.section1 {
+    text-align: center;
+}
 
 
+.sec1-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 36px;
+}
+
+
+
+.section-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    flex-wrap: wrap;
+    
+}
+
+.icons {
+    max-width: 150px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section2 {
+    padding: 80px 100px;
+    background-color: #e5e7eb;
+
+}
+
+.quote {
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    padding-bottom: 2%;
+}
+
+.quote-credit {
+    text-align: left;
+    text-align: right;
+    font-weight: bold;
+    padding: 0;
+}
+
+.section3 {
+    background-color: #3882f6;
+    margin: 60px;
+    padding: 30px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.main-cta, .cta2 {
+    padding: 0;
+}
+
+.main-cta {
+    font-weight: bold;
+}
+
+.sec3-btn {
+    border: 1px solid white;
+}
+
+footer {
+    text-align: center;
+}
